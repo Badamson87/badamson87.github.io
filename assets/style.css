@@ -4,6 +4,9 @@
   height: 6vw;
   background-color: rgb(23, 23, 37);
   color: white;
+  position: fixed;
+  top: 0;
+  flex-wrap: nowrap;
    }
 
 .hero{
@@ -32,7 +35,7 @@
 
 .bio{
   position: absolute;
-  top: 20vh;
+  top: 30vh;
   left: 40vh;
   z-index: 1;
   text-align: center;
@@ -54,7 +57,7 @@
 
 .portfolio{
   height: 100vh;
-  background-color: rgb(181, 243, 243);
+  background-color: rgb(183, 216, 216);
 }
 
 .portfolio{
@@ -72,4 +75,23 @@
   height: 100vh;
 }
 
+.foot{
+  display: flex;
+  position: absolute;
+  height: 30vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
 
+.foot-title{
+  position: relative;
+  left: 40vw;
+
+}
+
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
