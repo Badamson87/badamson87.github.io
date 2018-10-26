@@ -4,7 +4,7 @@
   height: 6vw;
   background-color: rgb(23, 23, 37);
   color: white;
-  }
+   }
 
 .hero{
   display: flex;
@@ -26,8 +26,8 @@
 
 .about{
   display: flex;
-  background-size: cover;
-  height: 70vh;
+  background-size: contain;
+  height: 100vh;
 }
 
 .bio{
@@ -51,3 +51,25 @@
 .opa {
   opacity: .3;
 }
+
+.portfolio{
+  height: 100vh;
+  background-color: rgb(181, 243, 243);
+}
+
+.portfolio{
+  display: flex;
+  text-align: center;
+}
+
+.p-title{
+  position: relative;
+  top: 10vh; 
+  text-align: center; 
+}
+
+.c-img {
+  height: 100vh;
+}
+
+
