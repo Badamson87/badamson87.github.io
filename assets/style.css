@@ -64,23 +64,7 @@
   height: 100vh;
 }
 
-.foot{
-  display: flex;
-  position: absolute;
-  height: 30vh;
-  width: 100vw;
-  background-color: black;
-  color: white;
-}
-
-.foot-title{
-  position: relative;
-  left: 40vw;
-
-}
-
-.contacts{
-  display: flex;
-  justify-content: space-between;
+.contact{
+  background-color: #343a40;
   color: white;
 }
