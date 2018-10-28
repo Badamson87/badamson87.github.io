@@ -13,40 +13,32 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  text-shadow: 0 0 10 white;
+  text-shadow: 0 0 10px black;
 }
 
 .about{
   display: flex;
+  position: relative;
   background-size: contain;
-  height: 100vh;
-}
+  overflow: hidden;
+  }
 
 .bio{
-  position: absolute;
-  top: 30vh;
-  left: 40vh;
-  z-index: 1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+    z-index: 1;
   text-align: center;
-  text-shadow: 0 0 10 black;
-}
-
-.rotate-right{
-  transform: rotate(90deg);
-  height: 100vw;
-}
-
-.rotate-left{
-  transform: rotate(270deg);
 }
 
 .opa {
-  opacity: .3;
+  opacity: .2;
 }
 
 .portfolio{
   height: 100vh;
-  background-color: rgb(183, 216, 216);
+  background-color: rgb(231, 231, 231);
 }
 
 .portfolio{
@@ -58,13 +50,4 @@
   position: relative;
   top: 10vh; 
   text-align: center; 
-}
-
-.c-img {
-  height: 100vh;
-}
-
-.contact{
-  background-color: #343a40;
-  color: white;
 }
