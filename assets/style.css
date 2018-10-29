@@ -17,11 +17,21 @@
 }
 
 .about{
-  display: flex;
   position: relative;
   background-size: contain;
   overflow: hidden;
   }
+
+  .bio-container{
+text-align: center;
+padding-top: 3rem;
+  }
+
+  @media only screen and (min-width: 600px){
+
+.bio-container{
+  position: absolute;
+}
 
 .bio{
   position: relative;
@@ -31,6 +41,7 @@
     z-index: 1;
   text-align: center;
 }
+  }
 
 .opa {
   opacity: .2;
